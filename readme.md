@@ -25,11 +25,13 @@
 # 1. 配置导入
 
 使用[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)插件根据安装指导完成配置  
-其中gist信息使用本库配置gist:
+其中gist信息使用本库配置的gist:
 
 ```sh
 67021e0ea08de4a0206bed3dcbf341ba
 ```
+
+你也可以通过访问[该配置的gist](https://gist.github.com/Peter-Chou/67021e0ea08de4a0206bed3dcbf341ba)按需导入
 
 # 2. vscode 自定义按键配置
 
