@@ -1,30 +1,39 @@
-
-# vscode 自定义按键配置
-
 <!-- TOC -->
 
-- [vscode 自定义按键配置](#vscode-自定义按键配置)
-  - [全局按键绑定](#全局按键绑定)
-  - [explorer 下绑定](#explorer-下绑定)
-  - [文件浏览](#文件浏览)
-  - [terminal panel下的按键绑定](#terminal-panel下的按键绑定)
-  - [vim 按键绑定](#vim-按键绑定)
-    - [常规绑定](#常规绑定)
-    - [Insert mode下的绑定](#insert-mode下的绑定)
-    - [Normal mode下的绑定：](#normal-mode下的绑定)
-    - [Visual mode下的绑定：](#visual-mode下的绑定)
-    - [leader key下的绑定](#leader-key下的绑定)
-    - [project TODO+](#project-todo)
-    - [vim-surround 功能中的绑定](#vim-surround-功能中的绑定)
-  - [python下的按键绑定](#python下的按键绑定)
-  - [C++下的按键绑定](#c下的按键绑定)
-  - [Markdown下的按键绑定](#markdown下的按键绑定)
-  - [Snippets](#snippets)
-    - [Python Snippets](#python-snippets)
+- [1. 配置导入](#1-配置导入)
+- [2. vscode 自定义按键配置](#2-vscode-自定义按键配置)
+  - [2.1. 全局按键绑定](#21-全局按键绑定)
+  - [2.2. explorer 下绑定](#22-explorer-下绑定)
+  - [2.3. 文件浏览](#23-文件浏览)
+  - [2.4. terminal panel下的按键绑定](#24-terminal-panel下的按键绑定)
+  - [2.5. vim 按键绑定](#25-vim-按键绑定)
+    - [2.5.1. 常规绑定](#251-常规绑定)
+    - [2.5.2. Insert mode下的绑定](#252-insert-mode下的绑定)
+    - [2.5.3. Normal mode下的绑定：](#253-normal-mode下的绑定)
+    - [2.5.4. Visual mode下的绑定：](#254-visual-mode下的绑定)
+    - [2.5.5. leader key下的绑定](#255-leader-key下的绑定)
+    - [2.5.6. project TODO+](#256-project-todo)
+    - [2.5.7. vim-surround 功能中的绑定](#257-vim-surround-功能中的绑定)
+- [3. python下的按键绑定](#3-python下的按键绑定)
+- [4. C++下的按键绑定](#4-c下的按键绑定)
+- [5. Markdown下的按键绑定](#5-markdown下的按键绑定)
+- [6. Snippets](#6-snippets)
+  - [6.1. Python Snippets](#61-python-snippets)
 
 <!-- /TOC -->
 
-## 全局按键绑定
+# 1. 配置导入
+
+使用[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)插件根据安装指导完成配置  
+其中gist信息使用本库配置gist:
+
+```sh
+67021e0ea08de4a0206bed3dcbf341ba
+```
+
+# 2. vscode 自定义按键配置
+
+## 2.1. 全局按键绑定
 
 | 快捷键          | 功能                            |
 | --------------- | ------------------------------- |
@@ -61,7 +70,7 @@
 | Shift+F12       | 隐藏 title bar (在windows内)    |
 | Shift+F11       | 显示 title bar (在windows内)    |
 
-## explorer 下绑定
+## 2.2. explorer 下绑定
 
 | 快捷键         | 功能                     |
 | -------------- | ------------------------ |
@@ -75,7 +84,7 @@
 | Alt+shift+r    | 打开文件所在的系统文件夹 |
 | Shift+alt+c    | 复制路径                 |
 
-## 文件浏览
+## 2.3. 文件浏览
 
 | 快捷键       | 功能                               |
 | ------------ | ---------------------------------- |
@@ -83,7 +92,7 @@
 | Ctrl+shift+i | open Untitled buffer for file path |
 | Alt+d        | 从 cursor所指的路径string打开文件  |
 
-## terminal panel下的按键绑定
+## 2.4. terminal panel下的按键绑定
 
 | 快捷键       | 功能                                              |
 | ------------ | ------------------------------------------------- |
@@ -95,15 +104,15 @@
 | Ctrl+shift+k | 向上移动一屏                                      |
 | Ctrl+shift+j | 向下移动一屏                                      |
 
-## vim 按键绑定
+## 2.5. vim 按键绑定
 
-### 常规绑定
+### 2.5.1. 常规绑定
 
 | 快捷键    | 功能          |
 | --------- | ------------- |
 | Shift+Esc | 关闭popup提示 |
 
-### Insert mode下的绑定
+### 2.5.2. Insert mode下的绑定
 
 | 快捷键 | 功能         |
 | ------ | ------------ |
@@ -113,7 +122,7 @@
 | Ctrl+e | 移动到行尾   |
 | `f+d`  | escape key   |
 
-### Normal mode下的绑定：
+### 2.5.3. Normal mode下的绑定：
 
 | 快捷键      | 功能                                                      |
 | ----------- | --------------------------------------------------------- |
@@ -128,13 +137,13 @@
 | g+T         | 切换到上一个tab                                           |
 | g+b         | add an additional cursor at the next place that matches * |
 
-### Visual mode下的绑定：
+### 2.5.4. Visual mode下的绑定：
 
 | 快捷键 | 功能                                                             |
 | ------ | ---------------------------------------------------------------- |
 | g+q    | reflow and wordwrap blocks of text, preserving commenting style. |
 
-### leader key下的绑定
+### 2.5.5. leader key下的绑定
 
 | 快捷键                      | 功能                                        |
 | --------------------------- | ------------------------------------------- |
@@ -168,7 +177,7 @@
 | `leader+w+H`                | 向左移动当前窗口                            |
 | `leader+w+c`                | editor 居中                                 |
 
-### project TODO+
+### 2.5.6. project TODO+
 
 | 快捷键     | 功能                 |
 | ---------- | -------------------- |
@@ -181,7 +190,7 @@
 | leader+o+s | todo.toggleStart     |
 | leader+o+t | todo.toggleTimer     |
 
-### vim-surround 功能中的绑定
+### 2.5.7. vim-surround 功能中的绑定
 
 | Surround Command                     | Description                                                           |
 | ------------------------------------ | --------------------------------------------------------------------- |
@@ -190,18 +199,18 @@
 | `y s <motion> <desired char>`        | Surround something with something using motion (as in "you surround") |
 | `S <desired char>`                   | Surround when in visual modes (surrounds full selection)              |
 
-## python下的按键绑定
+# 3. python下的按键绑定
 
 因为安装了docstring插件，在"""后enter就可以补全  
 
-## C++下的按键绑定
+# 4. C++下的按键绑定
 
-## Markdown下的按键绑定
+# 5. Markdown下的按键绑定
 
 | 快捷键   | 功能                      |
 | -------- | ------------------------- |
 | Ctrl-k v | 打开/关闭markdown preview |
 
-## Snippets
+# 6. Snippets
 
-### Python Snippets
+## 6.1. Python Snippets
