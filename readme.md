@@ -28,12 +28,12 @@
 
 | 快捷键          | 功能                            |
 | --------------- | ------------------------------- |
+| F1              | 调出dash查询cursor下的API信息   |
 | F2              | rename symbol                   |
 | F3              | 找当前变量的所有引用            |
 | F8              | 跳转到下一个错误                |
 | Shift+F8        | 跳转到上一个错误                |
 | Shift+alt+f     | format the entire active file   |
-| Ctrl+h          | 调出dash查询cursor下的API信息   |
 | Ctrl+tab        | 切换到下一个editor              |
 | Ctrl+shift+'    | active current editor           |
 | Ctrl+shift+.    | quick jump to definition/symbol |
