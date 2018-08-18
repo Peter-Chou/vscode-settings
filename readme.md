@@ -31,7 +31,7 @@
 67021e0ea08de4a0206bed3dcbf341ba
 ```
 
-你也可以通过访问[该配置的gist](https://gist.github.com/Peter-Chou/67021e0ea08de4a0206bed3dcbf341ba)按需导入
+你也可以通过访问[该配置的gist](https://gist.github.com/Peter-Chou/67021e0ea08de4a0206bed3dcbf341ba)按需使用
 
 # 2. vscode 自定义按键配置
 
@@ -129,6 +129,7 @@
 | 快捷键      | 功能                                                      |
 | ----------- | --------------------------------------------------------- |
 | `f+d`       | escape key                                                |
+| enter       | jump by one character                                     |
 | line_num+gg | 跳转到line_num 行                                         |
 | `g+h`       | 相当于鼠标放在curser处                                    |
 | `g+d`       | 跳转到定义处（jump to definition)                         |
