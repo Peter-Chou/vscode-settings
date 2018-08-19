@@ -49,28 +49,24 @@
 | Ctrl+shift+'    | active current editor           |
 | Ctrl+shift+.    | quick jump to definition/symbol |
 | Ctrl+shift+t    | 打开/关闭terminal panel         |
-| `Ctrl+shift+n`  | panel 底部 / 侧边 显示切换      |
-| Ctrl+shift+w    | 打开/关闭Sidebar                |
 | Ctrl+shift+o    | 打开 code outline panel         |
+| Ctrl+shift+w    | 打开/关闭Sidebar                |
+| Ctrl+shift+q    | 列出最近打开的git仓库           |
 | Ctrl+shift+h    | 插入文件的相对路径              |
+| Ctrl+shift+n    | panel 底部 / 侧边 显示切换      |
 | Ctrl+shift+-    | 折叠所有代码                    |
 | Ctrl+shift+=    | 展开所有代码                    |
-| Ctrl+shift+o    | 打开 code outline panel         |
-| Ctrl+shift+q    | 列出最近打开的git仓库           |
 | Ctrl+alt+p      | 列出所有git仓库                 |
 | Ctrl+alt+i      | 打开候选参数提示                |
 | Ctrl+-          | 代码font缩小                    |
 | Ctrl+=          | 代码font放大                    |
 | Ctrl+0          | 代码font复原                    |
-| Ctrl+j          | focus on panel                  |
 | Ctrl+n          | 选择下一个suggestion            |
 | Ctrl+p          | 选择上一个suggestion            |
 | `Ctrl-k Ctrl-x` | 清除行末尾的whitespace          |
 | Ctrl-k z        | 打开/关闭 zen-mode              |
 | Alt+j           | 弹出函数参数提示板              |
 | Alt+shift+0     | 横向 / 纵向 布局改变            |
-| Shift+F12       | 隐藏 title bar (在windows内)    |
-| Shift+F11       | 显示 title bar (在windows内)    |
 
 ## 2.2. explorer 下绑定
 
@@ -84,13 +80,14 @@
 | `Ctrl+shift+d` | 创建文件夹               |
 | `Ctrl+shift+z` | 折叠所有的文件夹         |
 | Alt+shift+r    | 打开文件所在的系统文件夹 |
-| Shift+alt+c    | 复制路径                 |
+| Alt+Shift+c    | 复制路径                 |
 
 ## 2.3. 文件浏览
 
 | 快捷键       | 功能                               |
 | ------------ | ---------------------------------- |
 | Ctrl+l       | 打开file navigator                 |
+| Ctrl+p       | 浏览最近文件列表                   |
 | Ctrl+shift+i | open Untitled buffer for file path |
 | Alt+d        | 从 cursor所指的路径string打开文件  |
 
@@ -98,21 +95,26 @@
 
 | 快捷键       | 功能                                              |
 | ------------ | ------------------------------------------------- |
+| Ctrl+j       | focus on terminal panel                           |
 | `Ctrl+k`     | 清空terminal内容（在terminal panel下）            |
 | Ctrl+\       | split另一个terminal(在terminal panel下可用)       |
-| Alt+left     | 转到前一个terminal panel (在terminal panel下可用) |
-| Alt+right    | 转到后一个terminal panel (在terminal panel下可用) | Shift+k | 向上移动一行 |
 | Shift+j      | 向下移动一行                                      |
-| Ctrl+shift+k | 向上移动一屏                                      |
+| Shift+k      | 向上移动一行                                      |
 | Ctrl+shift+j | 向下移动一屏                                      |
+| Ctrl+shift+k | 向上移动一屏                                      |
+| Alt+left     | 转到前一个terminal panel (在terminal panel下可用) |
+| Alt+right    | 转到后一个terminal panel (在terminal panel下可用) |
 
 ## 2.5. vim 按键绑定
 
 ### 2.5.1. 常规绑定
 
-| 快捷键    | 功能          |
-| --------- | ------------- |
-| Shift+Esc | 关闭popup提示 |
+| 快捷键    | 功能                       |
+| --------- | -------------------------- |
+| Shift+Esc | 关闭popup提示              |
+| enter     | jump by type one character |
+| `f+d`     | escape key                 |
+| `space`   | `leader key`               |
 
 ### 2.5.2. Insert mode下的绑定
 
@@ -122,63 +124,52 @@
 | Ctrl+b | 向后移动一格 |
 | Ctrl+a | 移动到行首   |
 | Ctrl+e | 移动到行尾   |
-| `f+d`  | escape key   |
 
 ### 2.5.3. Normal mode下的绑定：
 
-| 快捷键      | 功能                                                      |
-| ----------- | --------------------------------------------------------- |
-| `f+d`       | escape key                                                |
-| enter       | jump by one character                                     |
-| line_num+gg | 跳转到line_num 行                                         |
-| `g+h`       | 相当于鼠标放在curser处                                    |
-| `g+d`       | 跳转到定义处（jump to definition)                         |
-| Ctrl+]      | 跳转到定义处（jump to definition)                         |
-| Ctrl+t      | 从定义处调回原位置                                        |
-| g+D         | 在另一窗口打开定义                                        |
-| g+t         | 切换到下一个tab                                           |
-| g+T         | 切换到上一个tab                                           |
-| g+b         | add an additional cursor at the next place that matches * |
+| 快捷键      | 功能                                                                     |
+| ----------- | ------------------------------------------------------------------------ |
+| `g+h`       | 相当于鼠标放在curser处                                                   |
+| `g+d`       | 跳转到定义处（jump to definition)                                        |
+| Ctrl+t      | 从定义处调回原位置 (same as leader+d)                                    |
+| g+D         | 在另一窗口打开定义                                                       |
+| g+t         | 切换到下一个tab                                                          |
+| g+T         | 切换到上一个tab                                                          |
+| g+b         | add an additional cursor at the next place that matches * (multi-cursor) |
+| line_num+gg | 跳转到line_num 行                                                        |
 
 ### 2.5.4. Visual mode下的绑定：
 
-| 快捷键 | 功能                                                             |
-| ------ | ---------------------------------------------------------------- |
-| g+q    | reflow and wordwrap blocks of text, preserving commenting style. |
+| 快捷键 | 功能                           |
+| ------ | ------------------------------ |
+| g+q    | 使一行很长的注释分成多行短注释 |
 
 ### 2.5.5. leader key下的绑定
 
-| 快捷键                      | 功能                                        |
-| --------------------------- | ------------------------------------------- |
-| `space`                     | `leader key`                                |
-| `leader+tab`                | 切换到最近一个buer（spacemacs 中的 SPC-TAB) |
-| leader+b+b                  | 打开 buffer list                            |
-| leader+b+i                  | open outline explorer                       |
-| `leader+j+J`                | jump by two chars (like ace-jump in emcas)  |
-| leader+j+i                  | jump to specific method                     |
-| `<leader><leader> s <char>` | Search character                            |
-| `<leader><leader> w`        | Start of word forwards                      |
-| `<leader><leader> b`        | Start of word backwards                     |
-| `<leader><leader> e`        | End of word forwards                        |
-| `<leader><leader> ge`       | End of word backwards                       |
-| leader+/                    | 清除搜索高亮                                |
-| `leader+g`                  | golden-ratio 当前窗口                       |
-| `leader+G`                  | 取消golden-ratio 当前窗口                   |
-| leader+x+=                  | increase buffer size(horizontal)            |
-| leader+x+-                  | decrease buffer size(horizontal)            |
-| `leader+d`                  | 跳回一开始的跳转处(undo jump to definition) |
-| leader+t                    | start shell at file directory               |
-| leader+1                    | 折叠第一层级代码                            |
-| leader+2                    | 折叠第二层级代码                            |
-| leader+3                    | 折叠第三层级代码                            |
-| leader+4                    | 折叠第四层级代码                            |
-| leader+5                    | 折叠第五层级代码                            |
-| leader+0                    | 展开所有代码                                |
-| `leader+w+m`                | 最大化当前窗口                              |
-| `leader+w+d`                | 关闭当前窗口                                |
-| `leader+w+L`                | 向右移动当前窗口                            |
-| `leader+w+H`                | 向左移动当前窗口                            |
-| `leader+w+c`                | editor 居中                                 |
+| 快捷键       | 功能                                        |
+| ------------ | ------------------------------------------- |
+| leader+tab   | 切换到最近一个buer（spacemacs 中的 SPC-TAB) |
+| leader+t     | start shell at file directory               |
+| leader+d     | 跳回到之前的跳转处(undo jump to definition) |
+| leader+g     | golden-ratio 当前窗口                       |
+| leader+G     | 取消golden-ratio 当前窗口                   |
+| leader+/     | 清除搜索高亮                                |
+| leader+1     | 折叠第一层级代码                            |
+| leader+2     | 折叠第二层级代码                            |
+| leader+3     | 折叠第三层级代码                            |
+| leader+4     | 折叠第四层级代码                            |
+| leader+5     | 折叠第五层级代码                            |
+| leader+0     | 展开所有代码                                |
+| leader+b+b   | 打开 buffer list                            |
+| leader+j+J   | jump by two chars (like ace-jump in emcas)  |
+| leader+j+i   | jump to specific method                     |
+| `leader+w+m` | 最大化当前窗口                              |
+| `leader+w+d` | 关闭当前窗口                                |
+| `leader+w+L` | 向右移动当前窗口                            |
+| `leader+w+H` | 向左移动当前窗口                            |
+| `leader+w+c` | editor 居中                                 |
+| leader+x+=   | increase buffer size(horizontal)            |
+| leader+x+-   | decrease buffer size(horizontal)            |
 
 ### 2.5.6. project TODO+
 
@@ -204,7 +195,7 @@
 
 # 3. python下的按键绑定
 
-因为安装了docstring插件，在"""后enter就可以补全  
+因安装了docstring插件，在"""后enter就可以补全 (使用的是google style) 
 
 # 4. C++下的按键绑定
 
