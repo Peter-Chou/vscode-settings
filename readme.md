@@ -37,36 +37,37 @@
 
 ## 2.1. 全局按键绑定
 
-| 快捷键          | 功能                            |
-| --------------- | ------------------------------- |
-| F1              | 调出dash查询cursor下的API信息   |
-| F2              | rename symbol                   |
-| F3              | 找当前变量的所有引用            |
-| F8              | 跳转到下一个错误                |
-| Shift+F8        | 跳转到上一个错误                |
-| Shift+alt+f     | format the entire active file   |
-| Ctrl+tab        | 切换到下一个editor              |
-| Ctrl+shift+'    | active current editor           |
-| Ctrl+shift+.    | quick jump to definition/symbol |
-| Ctrl+shift+t    | 打开/关闭terminal panel         |
-| Ctrl+shift+o    | 打开 code outline panel         |
-| Ctrl+shift+w    | 打开/关闭Sidebar                |
-| Ctrl+shift+q    | 列出最近打开的git仓库           |
-| Ctrl+shift+h    | 插入文件的相对路径              |
-| Ctrl+shift+n    | panel 底部 / 侧边 显示切换      |
-| Ctrl+shift+-    | 折叠所有代码                    |
-| Ctrl+shift+=    | 展开所有代码                    |
-| Ctrl+alt+p      | 列出所有git仓库                 |
-| Ctrl+alt+i      | 打开候选参数提示                |
-| Ctrl+-          | 代码font缩小                    |
-| Ctrl+=          | 代码font放大                    |
-| Ctrl+0          | 代码font复原                    |
-| Ctrl+n          | 选择下一个suggestion            |
-| Ctrl+p          | 选择上一个suggestion            |
-| `Ctrl-k Ctrl-x` | 清除行末尾的whitespace          |
-| Ctrl-k z        | 打开/关闭 zen-mode              |
-| Alt+j           | 弹出函数参数提示板              |
-| Alt+shift+0     | 横向 / 纵向 布局改变            |
+| 快捷键          | 功能                                            |
+| --------------- | ----------------------------------------------- |
+| F1              | 调出dash查询cursor下的API信息                   |
+| F2              | rename symbol                                   |
+| F3              | 找当前变量的所有引用                            |
+| F8              | 跳转到下一个错误                                |
+| Shift+F8        | 跳转到上一个错误                                |
+| Shift+alt+f     | format the entire active file                   |
+| Ctrl+tab        | 切换到下一个editor                              |
+| Ctrl+shift+'    | active current editor                           |
+| Ctrl+shift+.    | quick jump to definition/symbol                 |
+| Ctrl+shift+t    | 打开/关闭terminal panel                         |
+| Ctrl+shift+o    | 打开 code outline panel                         |
+| Ctrl+shift+w    | 打开/关闭Sidebar                                |
+| Ctrl+shift+q    | 列出最近打开的git仓库                           |
+| Ctrl+shift+h    | 插入文件的相对路径                              |
+| Ctrl+shift+n    | panel 底部 / 侧边 显示切换                      |
+| Ctrl+shift+-    | 折叠所有代码                                    |
+| Ctrl+shift+=    | 展开所有代码                                    |
+| Ctrl+alt+p      | 列出所有git仓库                                 |
+| Ctrl+alt+i      | 打开候选参数提示                                |
+| Ctrl+-          | 代码font缩小                                    |
+| Ctrl+=          | 代码font放大                                    |
+| Ctrl+0          | 代码font复原                                    |
+| Ctrl+n          | 选择下一个suggestion                            |
+| Ctrl+p          | 选择上一个suggestion                            |
+| `Ctrl-k Ctrl-x` | 清除行末尾的whitespace                          |
+| Ctrl-k z        | 打开/关闭 zen-mode                              |
+| Alt+j           | 弹出函数参数提示板                              |
+| Alt+Enter       | 在(insert mode下)行尾增加`;` & cursor移到下一行 |
+| Alt+shift+0     | 横向 / 纵向 布局改变                            |
 
 ## 2.2. explorer 下绑定
 
