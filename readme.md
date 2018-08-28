@@ -24,7 +24,7 @@
 
 # 1. 配置导入
 
-使用[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)插件根据安装指导完成配置  
+使用[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)插件根据安装指导完成配置
 其中gist信息使用本库配置的gist:
 
 ```sh
@@ -131,6 +131,7 @@
 | 快捷键      | 功能                                                                     |
 | ----------- | ------------------------------------------------------------------------ |
 | `g+h`       | 相当于鼠标放在curser处                                                   |
+| `g+f`       | 相当于Click+click跳转到当前文件地址所在的文件                            |
 | `g+d`       | 跳转到定义处（jump to definition)                                        |
 | Ctrl+t      | 从定义处调回原位置 (same as leader+d)                                    |
 | g+D         | 在另一窗口打开定义                                                       |
@@ -196,7 +197,7 @@
 
 # 3. python下的按键绑定
 
-因安装了docstring插件，在"""后enter就可以补全 (使用的是google style) 
+因安装了docstring插件，在"""后enter就可以补全 (使用的是google style)
 
 # 4. C++下的按键绑定
 
