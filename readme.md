@@ -134,6 +134,8 @@
 | `g+f`       | 相当于Click+click跳转到当前文件地址所在的文件                            |
 | `g+d`       | 跳转到定义处（jump to definition)                                        |
 | Ctrl+t      | 从定义处调回原位置 (same as leader+d)                                    |
+| Ctrl+y      | 内容向上移动一行                                                         |
+| Ctrl+e      | 内容向下移动一行                                                         |
 | g+D         | 在另一窗口打开定义                                                       |
 | g+t         | 切换到下一个tab                                                          |
 | g+T         | 切换到上一个tab                                                          |
