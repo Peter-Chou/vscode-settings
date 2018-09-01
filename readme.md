@@ -46,7 +46,6 @@
 | Shift+F8        | 跳转到上一个错误                                |
 | Shift+alt+f     | format the entire active file                   |
 | Ctrl+tab        | 切换到下一个editor                              |
-| Ctrl+shift+'    | active current editor                           |
 | Ctrl+shift+.    | quick jump to definition/symbol                 |
 | Ctrl+shift+t    | 打开/关闭terminal panel                         |
 | Ctrl+shift+o    | 打开 code outline panel                         |
@@ -65,6 +64,7 @@
 | Ctrl+p          | 选择上一个suggestion                            |
 | `Ctrl-k Ctrl-x` | 清除行末尾的whitespace                          |
 | Ctrl-k z        | 打开/关闭 zen-mode                              |
+| `Alt+k`         | active current editor                           |
 | Alt+j           | 弹出函数参数提示板                              |
 | Alt+z           | 启用 / 禁用 visual line                         |
 | Alt+Enter       | 在(insert mode下)行尾增加`;` & cursor移到下一行 |
