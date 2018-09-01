@@ -66,6 +66,7 @@
 | `Ctrl-k Ctrl-x` | 清除行末尾的whitespace                          |
 | Ctrl-k z        | 打开/关闭 zen-mode                              |
 | Alt+j           | 弹出函数参数提示板                              |
+| Alt+z           | 启用 / 禁用 visual line                         |
 | Alt+Enter       | 在(insert mode下)行尾增加`;` & cursor移到下一行 |
 | Alt+shift+0     | 横向 / 纵向 布局改变                            |
 
@@ -141,6 +142,10 @@
 | g+T         | 切换到上一个tab                                                          |
 | g+b         | add an additional cursor at the next place that matches * (multi-cursor) |
 | line_num+gg | 跳转到line_num 行                                                        |
+| 0           | move to beginning of line                                                |
+| $           | move to end of line                                                      |
+| _           | move to first non-blank character of the line                            |
+| g_          | move to last non-blank character of the line                             |
 
 ### 2.5.4. Visual mode下的绑定：
 
