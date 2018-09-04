@@ -111,14 +111,14 @@
 
 ### 2.5.1. 常规绑定
 
-| 快捷键      | 功能                                                              |
-| ----------- | ----------------------------------------------------------------- |
-| Shift+Esc   | 关闭popup提示                                                     |
-| enter       | expand region                                                     |
-| shift+enter | shrink region                                                     |
-| y           | activate visual region and copy (use `Y` to copy the entire line) |
-| `f+d`       | escape key                                                        |
-| `space`     | `leader key`                                                      |
+| 快捷键      | 功能                                                               |
+| ----------- | ------------------------------------------------------------------ |
+| Shift+Esc   | 关闭popup提示                                                      |
+| enter       | expand region                                                      |
+| shift+enter | shrink region                                                      |
+| Y           | activate visual region and copy (use `yy` to copy the entire line) |
+| `f+d`       | escape key                                                         |
+| `space`     | `leader key`                                                       |
 
 ### 2.5.2. Insert mode下的绑定
 
