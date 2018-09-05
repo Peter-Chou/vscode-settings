@@ -63,6 +63,7 @@
 | Ctrl+n          | 选择下一个suggestion                            |
 | Ctrl+p          | 选择上一个suggestion                            |
 | `Ctrl-k Ctrl-x` | 清除行末尾的whitespace                          |
+| `Ctrl-k Ctrl-w` | 关闭所有的editors                               |
 | Ctrl-k z        | 打开/关闭 zen-mode                              |
 | `Alt+k`         | active current editor                           |
 | Alt+j           | 弹出函数参数提示板                              |
