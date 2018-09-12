@@ -138,6 +138,7 @@
 | `g+f`       | 相当于Click+click跳转到当前文件地址所在的文件                            |
 | `g+d`       | 跳转到定义处（jump to definition)                                        |
 | Ctrl+t      | 从定义处调回原位置 (same as leader+d)                                    |
+| Ctrl+s      | search like swiper in emacs                                              |
 | Ctrl+y      | 内容向上移动一行                                                         |
 | Ctrl+e      | 内容向下移动一行                                                         |
 | g+D         | 在另一窗口打开定义                                                       |
@@ -164,7 +165,6 @@
 | leader+T+d   | 切换到 dark 主题                            |
 | leader+T+l   | 切换到 light 主题                           |
 | leader+t     | start shell at file directory               |
-| leader+s     | search like swiper in emacs                 |
 | leader+d     | 跳回到之前的跳转处(undo jump to definition) |
 | leader+g     | golden-ratio 当前窗口                       |
 | leader+G     | 取消golden-ratio 当前窗口                   |
