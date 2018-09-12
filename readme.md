@@ -164,6 +164,7 @@
 | leader+T+d   | 切换到 dark 主题                            |
 | leader+T+l   | 切换到 light 主题                           |
 | leader+t     | start shell at file directory               |
+| leader+s     | search like swiper in emacs                 |
 | leader+d     | 跳回到之前的跳转处(undo jump to definition) |
 | leader+g     | golden-ratio 当前窗口                       |
 | leader+G     | 取消golden-ratio 当前窗口                   |
