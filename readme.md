@@ -164,6 +164,7 @@
 | leader+tab   | 切换到最近一个buer（spacemacs 中的 SPC-TAB) |
 | leader+T+d   | 切换到 dark 主题                            |
 | leader+T+l   | 切换到 light 主题                           |
+| leader+T+F   | 打开/关闭 全屏                              |
 | leader+t     | start shell at file directory               |
 | leader+d     | 跳回到之前的跳转处(undo jump to definition) |
 | leader+g     | golden-ratio 当前窗口                       |
