@@ -101,10 +101,8 @@
 | Ctrl+j       | focus on terminal panel                           |
 | `Ctrl+k`     | 清空terminal内容（在terminal panel下）            |
 | Ctrl+\       | split另一个terminal(在terminal panel下可用)       |
-| Shift+j      | 向下移动一行                                      |
-| Shift+k      | 向上移动一行                                      |
-| Ctrl+shift+j | 向下移动一屏                                      |
-| Ctrl+shift+k | 向上移动一屏                                      |
+| Ctrl+Shift+j | 向下移动一行                                      |
+| Ctrl+Shift+k | 向上移动一行                                      |
 | Alt+left     | 转到前一个terminal panel (在terminal panel下可用) |
 | Alt+right    | 转到后一个terminal panel (在terminal panel下可用) |
 
@@ -112,14 +110,13 @@
 
 ### 2.5.1. 常规绑定
 
-| 快捷键      | 功能                                                               |
-| ----------- | ------------------------------------------------------------------ |
-| Shift+Esc   | 关闭popup提示                                                      |
-| enter       | expand region                                                      |
-| shift+enter | shrink region                                                      |
-| Y           | activate visual region and copy (use `yy` to copy the entire line) |
-| `f+d`       | escape key                                                         |
-| `space`     | `leader key`                                                       |
+| 快捷键       | 功能                     |
+| ------------ | ------------------------ |
+| Ctrl+Shift+j | 所在行居中并向下移动一行 |
+| Ctrl+Shift+k | 所在行居中并向上移动一行 |
+| Shift+Esc    | 关闭popup提示            |
+| `f+d`        | escape key               |
+| `space`      | `leader key`             |
 
 ### 2.5.2. Insert mode下的绑定
 
