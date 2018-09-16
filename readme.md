@@ -45,6 +45,7 @@
 | F8              | 跳转到下一个错误                                |
 | Shift+F8        | 跳转到上一个错误                                |
 | Shift+alt+f     | format the entire active file                   |
+| Ctrl+F4         | 关闭当前editor                                  |
 | Ctrl+tab        | 切换到下一个editor                              |
 | Ctrl+shift+.    | quick jump to definition/symbol                 |
 | Ctrl+shift+t    | 打开/关闭terminal panel                         |
@@ -173,14 +174,20 @@
 | leader+4     | 折叠第四层级代码                            |
 | leader+5     | 折叠第五层级代码                            |
 | leader+0     | 展开所有代码                                |
-| leader+b+b   | 打开 buffer list                            |
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
+| leader+b+b   | open recent buffer list                     |
 | `leader+w+m` | 最大化当前窗口                              |
 | `leader+w+d` | 关闭当前窗口                                |
 | `leader+w+L` | 向右移动当前窗口                            |
 | `leader+w+H` | 向左移动当前窗口                            |
 | `leader+w+c` | editor 居中                                 |
+| lead+m+m     | 设置/取消 bookmark                          |
+| lead+m+M     | 设置/取消 labeled bookmark                  |
+| lead+m+l     | 列出该文件中所有的 bookmarks                |
+| lead+m+L     | 列出所有文件中的 bookmarks                  |
+| lead+m+c     | 清除该文件中所有的 bookmarks                |
+| lead+m+C     | 清除所有文件中的 bookmarks                  |
 | leader+x+=   | increase buffer size(horizontal)            |
 | leader+x+-   | decrease buffer size(horizontal)            |
 
