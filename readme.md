@@ -66,8 +66,8 @@
 | `Ctrl-k Ctrl-x` | 清除行末尾的whitespace                          |
 | `Ctrl-k Ctrl-w` | 关闭所有的editors                               |
 | Ctrl-k z        | 打开/关闭 zen-mode                              |
-| `Alt+k`         | active current editor                           |
-| Alt+j           | 弹出函数参数提示板                              |
+| `Alt+j`         | active current editor                           |
+| Alt+k           | 弹出函数参数提示板                              |
 | Alt+z           | 启用 / 禁用 visual line                         |
 | Alt+Enter       | 在(insert mode下)行尾增加`;` & cursor移到下一行 |
 | Alt+shift+0     | 横向 / 纵向 布局改变                            |
@@ -99,7 +99,7 @@
 
 | 快捷键       | 功能                                              |
 | ------------ | ------------------------------------------------- |
-| Ctrl+j       | focus on terminal panel                           |
+| `Ctrl+j`     | focus on terminal panel                           |
 | `Ctrl+k`     | 清空terminal内容（在terminal panel下）            |
 | Ctrl+\       | split另一个terminal(在terminal panel下可用)       |
 | Ctrl+Shift+j | 向下移动一行                                      |
