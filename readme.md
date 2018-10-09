@@ -177,7 +177,7 @@
 | leader+0     | 展开所有代码                                |
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
-| leader+b+b   | open recent buffer list                     |
+| leader+f+r   | open recent buffer list                     |
 | `leader+w+m` | 最大化当前窗口                              |
 | `leader+w+d` | 关闭当前窗口                                |
 | `leader+w+L` | 向右移动当前窗口                            |
