@@ -1,4 +1,22 @@
-<!-- TOC -->autoauto- [1. 配置导入](#1-配置导入)auto- [2. vscode 自定义按键配置](#2-vscode-自定义按键配置)auto  - [2.1. 全局按键绑定](#21-全局按键绑定)auto  - [2.2. explorer 下绑定](#22-explorer-下绑定)auto  - [2.3. 文件浏览](#23-文件浏览)auto  - [2.4. terminal panel下的按键绑定](#24-terminal-panel下的按键绑定)auto  - [2.5. vim 按键绑定](#25-vim-按键绑定)auto    - [2.5.1. 常规绑定](#251-常规绑定)auto    - [2.5.2. Insert mode下的绑定](#252-insert-mode下的绑定)auto    - [2.5.3. Normal mode下的绑定：](#253-normal-mode下的绑定)auto    - [2.5.4. Visual mode下的绑定：](#254-visual-mode下的绑定)auto    - [2.5.5. leader key下的绑定](#255-leader-key下的绑定)auto    - [2.5.6. project TODO+](#256-project-todo)auto    - [2.5.7. vim-surround 功能中的绑定](#257-vim-surround-功能中的绑定)auto- [3. python下的按键绑定](#3-python下的按键绑定)auto- [4. C++下的按键绑定](#4-c下的按键绑定)auto- [5. Markdown下的按键绑定](#5-markdown下的按键绑定)auto- [6. Snippets](#6-snippets)auto  - [6.1. Python Snippets](#61-python-snippets)autoauto<!-- /TOC -->
+- [1. 配置导入](#1-配置导入)
+- [2. vscode 自定义按键配置](#2-vscode-自定义按键配置)
+  - [2.1. 全局按键绑定](#21-全局按键绑定)
+  - [2.2. explorer 下绑定](#22-explorer-下绑定)
+  - [2.3. 文件浏览](#23-文件浏览)
+  - [2.4. terminal panel下的按键绑定](#24-terminal-panel下的按键绑定)
+  - [2.5. vim 按键绑定](#25-vim-按键绑定)
+    - [2.5.1. 常规绑定](#251-常规绑定)
+    - [2.5.2. Insert mode下的绑定](#252-insert-mode下的绑定)
+    - [2.5.3. Normal mode下的绑定：](#253-normal-mode下的绑定)
+    - [2.5.4. Visual mode下的绑定：](#254-visual-mode下的绑定)
+    - [2.5.5. leader key下的绑定](#255-leader-key下的绑定)
+    - [2.5.6. project TODO+](#256-project-todo)
+    - [2.5.7. vim-surround 功能中的绑定](#257-vim-surround-功能中的绑定)
+- [3. python下的按键绑定](#3-python下的按键绑定)
+- [4. C++下的按键绑定](#4-c下的按键绑定)
+- [5. Markdown下的按键绑定](#5-markdown下的按键绑定)
+- [6. Snippets](#6-snippets)
+  - [6.1. Python Snippets](#61-python-snippets)
 
 # 1. 配置导入
 
