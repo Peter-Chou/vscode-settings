@@ -175,6 +175,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
 | leader+f+r   | open recent buffer list                     |
+| leader+b+b   | 列出正在开启的buffer                        |
 | `leader+w+m` | 最大化当前窗口                              |
 | `leader+w+d` | 关闭当前窗口                                |
 | `leader+w+L` | 向右移动当前窗口                            |
