@@ -128,24 +128,19 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 
 ### 2.5.3. Normal mode下的绑定：
 
-| 快捷键      | 功能                                                                     |
-| ----------- | ------------------------------------------------------------------------ |
-| `g+h`       | 相当于鼠标放在curser处                                                   |
-| `g+f`       | 相当于Click+click跳转到当前文件地址所在的文件                            |
-| `g+d`       | 跳转到定义处（jump to definition)                                        |
-| Ctrl+t      | 从定义处调回原位置 (same as leader+d)                                    |
-| Ctrl+s      | search like swiper in emacs                                              |
-| Ctrl+y      | 内容向上移动一行                                                         |
-| Ctrl+e      | 内容向下移动一行                                                         |
-| g+D         | 在另一窗口打开定义                                                       |
-| g+t         | 切换到下一个tab                                                          |
-| g+T         | 切换到上一个tab                                                          |
-| g+b         | add an additional cursor at the next place that matches * (multi-cursor) |
-| line_num+gg | 跳转到line_num 行                                                        |
-| 0           | move to beginning of line                                                |
-| $           | move to end of line                                                      |
-| _           | move to first non-blank character of the line                            |
-| g_          | move to last non-blank character of the line                             |
+| 快捷键 | 功能                                                                     |
+| ------ | ------------------------------------------------------------------------ |
+| `g+h`  | 相当于鼠标放在curser处                                                   |
+| `g+f`  | 相当于Click+click跳转到当前文件地址所在的文件                            |
+| `g+d`  | 跳转到定义处（jump to definition)                                        |
+| Ctrl+t | 从定义处调回原位置 (same as leader+d)                                    |
+| Ctrl+s | search like swiper in emacs                                              |
+| Ctrl+y | 内容向上移动一行                                                         |
+| Ctrl+e | 内容向下移动一行                                                         |
+| g+D    | 在另一窗口打开定义                                                       |
+| g+t    | 切换到下一个tab                                                          |
+| g+T    | 切换到上一个tab                                                          |
+| g+b    | add an additional cursor at the next place that matches * (multi-cursor) |
 
 ### 2.5.4. Visual mode下的绑定：
 
@@ -158,8 +153,6 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | 快捷键       | 功能                                        |
 | ------------ | ------------------------------------------- |
 | leader+tab   | 切换到最近一个buer（spacemacs 中的 SPC-TAB) |
-| leader+T+D   | 切换到 dark 主题                            |
-| leader+T+L   | 切换到 light 主题                           |
 | leader+T+F   | 打开/关闭 全屏                              |
 | leader+t     | start shell at file directory               |
 | leader+d     | 跳回到之前的跳转处(undo jump to definition) |
