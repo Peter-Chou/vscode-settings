@@ -164,12 +164,15 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `leader+w+L` | 向右移动当前窗口                            |
 | `leader+w+H` | 向左移动当前窗口                            |
 | `leader+w+c` | editor 居中                                 |
-| lead+m+m     | 设置/取消 bookmark                          |
-| lead+m+M     | 设置/取消 labeled bookmark                  |
-| lead+m+l     | 列出该文件中所有的 bookmarks                |
-| lead+m+L     | 列出所有文件中的 bookmarks                  |
-| lead+m+c     | 清除该文件中所有的 bookmarks                |
-| lead+m+C     | 清除所有文件中的 bookmarks                  |
+| leader+m+m     | 设置/取消 bookmark                          |
+| leader+m+M     | 设置/取消 labeled bookmark                  |
+| leader+m+l     | 列出该文件中所有的 bookmarks                |
+| leader+m+L     | 列出所有文件中的 bookmarks                  |
+| leader+m+c     | 清除该文件中所有的 bookmarks                |
+| leader+m+C     | 清除所有文件中的 bookmarks                  |
+| leader+m+n     | 跳到文件中cursorf的下一个 bookmarks          |
+| leader+m+p     | 跳到文件中cursorf的上一个 bookmarks          |
+| leader+m+b     | 打开 bookmarks sidebar                    |
 | leader+x+=   | increase buffer size(horizontal)            |
 | leader+x+-   | decrease buffer size(horizontal)            |
 
