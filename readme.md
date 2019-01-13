@@ -6,12 +6,11 @@
   - [2.4. terminal panel下的按键绑定](#24-terminal-panel下的按键绑定)
   - [2.5. vim 按键绑定](#25-vim-按键绑定)
     - [2.5.1. 常规绑定](#251-常规绑定)
-    - [2.5.2. Insert mode下的绑定](#252-insert-mode下的绑定)
-    - [2.5.3. Normal mode下的绑定：](#253-normal-mode下的绑定)
-    - [2.5.4. Visual mode下的绑定：](#254-visual-mode下的绑定)
-    - [2.5.5. leader key下的绑定](#255-leader-key下的绑定)
-    - [2.5.6. project TODO+](#256-project-todo)
-    - [2.5.7. vim-surround 功能中的绑定](#257-vim-surround-功能中的绑定)
+    - [2.5.2. Normal mode下的绑定：](#252-normal-mode下的绑定)
+    - [2.5.3. Visual mode下的绑定：](#253-visual-mode下的绑定)
+    - [2.5.4. leader key下的绑定](#254-leader-key下的绑定)
+    - [2.5.5. project TODO+](#255-project-todo)
+    - [2.5.6. vim-surround 功能中的绑定](#256-vim-surround-功能中的绑定)
 - [3. python下的按键绑定](#3-python下的按键绑定)
 - [4. C++下的按键绑定](#4-c下的按键绑定)
 - [5. Markdown下的按键绑定](#5-markdown下的按键绑定)
@@ -117,16 +116,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `f+d`        | escape key               |
 | `space`      | `leader key`             |
 
-### 2.5.2. Insert mode下的绑定
-
-| 快捷键 | 功能         |
-| ------ | ------------ |
-| Ctrl+f | 向前移动一格 |
-| Ctrl+b | 向后移动一格 |
-| Ctrl+a | 移动到行首   |
-| Ctrl+e | 移动到行尾   |
-
-### 2.5.3. Normal mode下的绑定：
+### 2.5.2. Normal mode下的绑定：
 
 | 快捷键 | 功能                                                                     |
 | ------ | ------------------------------------------------------------------------ |
@@ -142,13 +132,13 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | g+T    | 切换到上一个tab                                                          |
 | g+b    | add an additional cursor at the next place that matches * (multi-cursor) |
 
-### 2.5.4. Visual mode下的绑定：
+### 2.5.3. Visual mode下的绑定：
 
 | 快捷键 | 功能                           |
 | ------ | ------------------------------ |
 | g+q    | 使一行很长的注释分成多行短注释 |
 
-### 2.5.5. leader key下的绑定
+### 2.5.4. leader key下的绑定
 
 | 快捷键       | 功能                                        |
 | ------------ | ------------------------------------------- |
@@ -183,7 +173,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | leader+x+=   | increase buffer size(horizontal)            |
 | leader+x+-   | decrease buffer size(horizontal)            |
 
-### 2.5.6. project TODO+
+### 2.5.5. project TODO+
 
 | 快捷键     | 功能                 |
 | ---------- | -------------------- |
@@ -196,7 +186,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | leader+o+s | todo.toggleStart     |
 | leader+o+t | todo.toggleTimer     |
 
-### 2.5.7. vim-surround 功能中的绑定
+### 2.5.6. vim-surround 功能中的绑定
 
 | Surround Command                     | Description                                                           |
 | ------------------------------------ | --------------------------------------------------------------------- |
