@@ -53,7 +53,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Ctrl+shift+n    | panel 底部 / 侧边 显示切换                                      |
 | Ctrl+shift+-    | 折叠所有代码                                                    |
 | Ctrl+shift+=    | 展开所有代码                                                    |
-| Ctrl+alt+p      | 列出所有git仓库                                                 |
+| shift+alt+p      | 列出所有git仓库                                                 |
 | Ctrl+alt+i      | 打开候选参数提示                                                |
 | Ctrl+-          | 代码font缩小                                                    |
 | Ctrl+=          | 代码font放大                                                    |
