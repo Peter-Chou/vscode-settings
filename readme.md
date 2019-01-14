@@ -40,7 +40,6 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | F3              | 找当前变量的所有引用                                            |
 | F8              | 跳转到下一个错误                                                |
 | Shift+F8        | 跳转到上一个错误                                                |
-| Shift+alt+f     | format the entire active file                                   |
 | Ctrl+F4         | 关闭当前editor                                                  |
 | Ctrl+tab        | 切换到下一个editor                                              |
 | Ctrl+shift+.    | quick jump to definition/symbol                                 |
@@ -53,7 +52,6 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Ctrl+shift+n    | panel 底部 / 侧边 显示切换                                      |
 | Ctrl+shift+-    | 折叠所有代码                                                    |
 | Ctrl+shift+=    | 展开所有代码                                                    |
-| shift+alt+p      | 列出所有git仓库                                                 |
 | Ctrl+alt+i      | 打开候选参数提示                                                |
 | Ctrl+-          | 代码font缩小                                                    |
 | Ctrl+=          | 代码font放大                                                    |
@@ -66,7 +64,9 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `Alt+j`         | active current editor                                           |
 | Alt+k           | 弹出函数参数提示板                                              |
 | Alt+z           | 启用 / 禁用 visual line                                         |
-| Alt+Enter       | 在(insert mode下)行尾增加`;` & cursor移到下一行                 |
+| Alt+shift+f     | format the entire active file                                   |
+| Alt+shift+r     | 用系统文件explorer打开文件所在目录                              |
+| Alt+shift+p     | 列出所有git仓库                                                 |
 | Alt+shift+0     | 横向 / 纵向 布局改变                                            |
 
 ## 2.2. explorer 下绑定
@@ -125,8 +125,6 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `g+d`  | 跳转到定义处（jump to definition)                                        |
 | Ctrl+t | 从定义处调回原位置 (same as leader+d)                                    |
 | Ctrl+s | search like swiper in emacs                                              |
-| Ctrl+y | 内容向上移动一行                                                         |
-| Ctrl+e | 内容向下移动一行                                                         |
 | g+D    | 在另一窗口打开定义                                                       |
 | g+t    | 切换到下一个tab                                                          |
 | g+T    | 切换到上一个tab                                                          |
@@ -164,15 +162,15 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `leader+w+L` | 向右移动当前窗口                            |
 | `leader+w+H` | 向左移动当前窗口                            |
 | `leader+w+c` | editor 居中                                 |
-| leader+m+m     | 设置/取消 bookmark                          |
-| leader+m+M     | 设置/取消 labeled bookmark                  |
-| leader+m+l     | 列出该文件中所有的 bookmarks                |
-| leader+m+L     | 列出所有文件中的 bookmarks                  |
-| leader+m+c     | 清除该文件中所有的 bookmarks                |
-| leader+m+C     | 清除所有文件中的 bookmarks                  |
-| leader+m+n     | 跳到文件中cursorf的下一个 bookmarks          |
-| leader+m+p     | 跳到文件中cursorf的上一个 bookmarks          |
-| leader+m+b     | 打开 bookmarks sidebar                    |
+| leader+m+m   | 设置/取消 bookmark                          |
+| leader+m+M   | 设置/取消 labeled bookmark                  |
+| leader+m+l   | 列出该文件中所有的 bookmarks                |
+| leader+m+L   | 列出所有文件中的 bookmarks                  |
+| leader+m+c   | 清除该文件中所有的 bookmarks                |
+| leader+m+C   | 清除所有文件中的 bookmarks                  |
+| leader+m+n   | 跳到文件中cursorf的下一个 bookmarks         |
+| leader+m+p   | 跳到文件中cursorf的上一个 bookmarks         |
+| leader+m+b   | 打开 bookmarks sidebar                      |
 | leader+x+=   | increase buffer size(horizontal)            |
 | leader+x+-   | decrease buffer size(horizontal)            |
 
