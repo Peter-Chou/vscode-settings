@@ -1,23 +1,23 @@
-- [1. 配置导入](#1-配置导入)
-- [2. vscode 自定义按键配置](#2-vscode-自定义按键配置)
-  - [2.1. 全局按键绑定](#21-全局按键绑定)
-  - [2.2. explorer 下绑定](#22-explorer-下绑定)
-  - [2.3. 文件浏览](#23-文件浏览)
-  - [2.4. terminal panel下的按键绑定](#24-terminal-panel下的按键绑定)
-  - [2.5. vim 按键绑定](#25-vim-按键绑定)
-    - [2.5.1. 常规绑定](#251-常规绑定)
-    - [2.5.2. Normal mode下的绑定：](#252-normal-mode下的绑定)
-    - [2.5.3. Visual mode下的绑定：](#253-visual-mode下的绑定)
-    - [2.5.4. leader key下的绑定](#254-leader-key下的绑定)
-    - [2.5.5. project TODO+](#255-project-todo)
-    - [2.5.6. vim-surround 功能中的绑定](#256-vim-surround-功能中的绑定)
-- [3. python下的按键绑定](#3-python下的按键绑定)
-- [4. C++下的按键绑定](#4-c下的按键绑定)
-- [5. Markdown下的按键绑定](#5-markdown下的按键绑定)
-- [6. Snippets](#6-snippets)
-  - [6.1. Python Snippets](#61-python-snippets)
+- [配置导入](#配置导入)
+- [vscode 自定义按键配置](#vscode-自定义按键配置)
+  - [全局按键绑定](#全局按键绑定)
+  - [explorer 下绑定](#explorer-下绑定)
+  - [文件浏览](#文件浏览)
+  - [terminal panel下的按键绑定](#terminal-panel下的按键绑定)
+  - [vim 按键绑定](#vim-按键绑定)
+    - [常规绑定](#常规绑定)
+    - [Normal mode下的绑定：](#normal-mode下的绑定)
+    - [Visual mode下的绑定：](#visual-mode下的绑定)
+    - [leader key下的绑定](#leader-key下的绑定)
+    - [project TODO+](#project-todo)
+    - [vim-surround 功能中的绑定](#vim-surround-功能中的绑定)
+- [python下的按键绑定](#python下的按键绑定)
+- [C++下的按键绑定](#c下的按键绑定)
+- [Markdown下的按键绑定](#markdown下的按键绑定)
+- [Snippets](#snippets)
+  - [Python Snippets](#python-snippets)
 
-# 1. 配置导入
+# 配置导入
 
 使用[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)插件根据安装指导完成配置
 其中gist信息使用本库配置的gist:
@@ -27,11 +27,11 @@
 ```
 
 你也可以通过访问[该配置的gist](https://gist.github.com/Peter-Chou/67021e0ea08de4a0206bed3dcbf341ba)按需使用
-PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
+PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 
-# 2. vscode 自定义按键配置
+# vscode 自定义按键配置
 
-## 2.1. 全局按键绑定
+## 全局按键绑定
 
 | 快捷键          | 功能                                                            |
 | --------------- | --------------------------------------------------------------- |
@@ -69,7 +69,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Alt+shift+p     | 列出所有git仓库                                                 |
 | Alt+shift+0     | 横向 / 纵向 布局改变                                            |
 
-## 2.2. explorer 下绑定
+## explorer 下绑定
 
 | 快捷键         | 功能                     |
 | -------------- | ------------------------ |
@@ -83,7 +83,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Alt+shift+r    | 打开文件所在的系统文件夹 |
 | Alt+Shift+c    | 复制路径                 |
 
-## 2.3. 文件浏览
+## 文件浏览
 
 | 快捷键       | 功能                               |
 | ------------ | ---------------------------------- |
@@ -92,7 +92,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Ctrl+shift+i | open Untitled buffer for file path |
 | Alt+d        | 从 cursor所指的路径string打开文件  |
 
-## 2.4. terminal panel下的按键绑定
+## terminal panel下的按键绑定
 
 | 快捷键       | 功能                                              |
 | ------------ | ------------------------------------------------- |
@@ -104,9 +104,9 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | Alt+left     | 转到前一个terminal panel (在terminal panel下可用) |
 | Alt+right    | 转到后一个terminal panel (在terminal panel下可用) |
 
-## 2.5. vim 按键绑定
+## vim 按键绑定
 
-### 2.5.1. 常规绑定
+### 常规绑定
 
 | 快捷键       | 功能                     |
 | ------------ | ------------------------ |
@@ -116,7 +116,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `f+d`        | escape key               |
 | `space`      | `leader key`             |
 
-### 2.5.2. Normal mode下的绑定：
+### Normal mode下的绑定：
 
 | 快捷键 | 功能                                                                     |
 | ------ | ------------------------------------------------------------------------ |
@@ -130,13 +130,13 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | g+T    | 切换到上一个tab                                                          |
 | g+b    | add an additional cursor at the next place that matches * (multi-cursor) |
 
-### 2.5.3. Visual mode下的绑定：
+### Visual mode下的绑定：
 
 | 快捷键 | 功能                           |
 | ------ | ------------------------------ |
 | g+q    | 使一行很长的注释分成多行短注释 |
 
-### 2.5.4. leader key下的绑定
+### leader key下的绑定
 
 | 快捷键       | 功能                                        |
 | ------------ | ------------------------------------------- |
@@ -174,7 +174,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | leader+x+=   | increase buffer size(horizontal)            |
 | leader+x+-   | decrease buffer size(horizontal)            |
 
-### 2.5.5. project TODO+
+### project TODO+
 
 | 快捷键     | 功能                 |
 | ---------- | -------------------- |
@@ -187,7 +187,7 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | leader+o+s | todo.toggleStart     |
 | leader+o+t | todo.toggleTimer     |
 
-### 2.5.6. vim-surround 功能中的绑定
+### vim-surround 功能中的绑定
 
 | Surround Command                     | Description                                                           |
 | ------------------------------------ | --------------------------------------------------------------------- |
@@ -196,23 +196,23 @@ PS: 英文字体使用的是：[AutoMono](https://github.com/0matgal0/AutoMono)
 | `y s <motion> <desired char>`        | Surround something with something using motion (as in "you surround") |
 | `S <desired char>`                   | Surround when in visual modes (surrounds full selection)              |
 
-# 3. python下的按键绑定
+# python下的按键绑定
 
 因安装了docstring插件，在"""后enter就可以补全 (使用的是google style)
 
-# 4. C++下的按键绑定
+# C++下的按键绑定
 
 | 快捷键          | 功能                                       |
 | --------------- | ------------------------------------------ |
 | Alt+enter       | 在 insert下自动在行尾添加 `;` 并移至下行   |
 | Shift+Alt+enter | 在 normal下自动在行尾添加 `;` 光标留在原处 |
 
-# 5. Markdown下的按键绑定
+# Markdown下的按键绑定
 
 | 快捷键   | 功能                      |
 | -------- | ------------------------- |
 | Ctrl-k v | 打开/关闭markdown preview |
 
-# 6. Snippets
+# Snippets
 
-## 6.1. Python Snippets
+## Python Snippets
