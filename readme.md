@@ -87,7 +87,6 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 
 | 快捷键       | 功能                               |
 | ------------ | ---------------------------------- |
-| Ctrl+l       | 打开file navigator                 |
 | Ctrl+p       | 浏览最近文件列表                   |
 | Ctrl+shift+i | open Untitled buffer for file path |
 | Alt+d        | 从 cursor所指的路径string打开文件  |
@@ -153,9 +152,11 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 | leader+4     | 折叠第四层级代码                            |
 | leader+5     | 折叠第五层级代码                            |
 | leader+0     | 展开所有代码                                |
+| leader+j+j   | jump by one chars (like ace-jump in emcas)  |
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
 | leader+f+r   | open recent buffer list                     |
+| leader+f+f   | open file navigator                         |
 | leader+b+b   | 列出正在开启的buffer                        |
 | `leader+w+m` | 最大化当前窗口                              |
 | `leader+w+d` | 关闭当前窗口                                |
