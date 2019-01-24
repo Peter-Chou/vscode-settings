@@ -152,6 +152,8 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 | leader+4     | 折叠第四层级代码                            |
 | leader+5     | 折叠第五层级代码                            |
 | leader+0     | 展开所有代码                                |
+leader+v | expand region 
+leader+V | shrink region 
 | leader+j+j   | jump by one chars (like ace-jump in emcas)  |
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
