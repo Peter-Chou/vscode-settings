@@ -66,6 +66,7 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 | Alt+z           | 启用 / 禁用 visual line                                         |
 | Alt+shift+f     | format the entire active file                                   |
 | Alt+shift+r     | 用系统文件explorer打开文件所在目录                              |
+| Alt+shift+k     | toggle suggestion Details during code completetion              |
 | Alt+shift+p     | 列出所有git仓库                                                 |
 | Alt+shift+0     | 横向 / 纵向 布局改变                                            |
 
@@ -152,8 +153,8 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 | leader+4     | 折叠第四层级代码                            |
 | leader+5     | 折叠第五层级代码                            |
 | leader+0     | 展开所有代码                                |
-leader+v | expand region 
-leader+V | shrink region 
+| leader+v     | expand region                               |
+| leader+V     | shrink region                               |
 | leader+j+j   | jump by one chars (like ace-jump in emcas)  |
 | leader+j+J   | jump by two chars (like ace-jump in emcas)  |
 | leader+j+i   | jump to specific method                     |
