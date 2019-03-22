@@ -103,6 +103,7 @@ PS: 英文字体使用的是：[FiraCode](https://github.com/tonsky/FiraCode)
 | Ctrl+Shift+k | 向上移动一行                                      |
 | Alt+left     | 转到前一个terminal panel (在terminal panel下可用) |
 | Alt+right    | 转到后一个terminal panel (在terminal panel下可用) |
+| F1           | focus on next terminal                            |
 
 ## vim 按键绑定
 
